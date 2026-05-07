@@ -2,7 +2,7 @@ name: Update GCP EDL
 
 on:
  schedule:
-   - cron: "0 2 * * 0"   # every Sunday
+   - cron: "0 8 * * *"   # every Sunday
  workflow_dispatch:
 
 jobs:
